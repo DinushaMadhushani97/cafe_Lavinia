@@ -1,0 +1,221 @@
+/* src/styles.css */
+
+/* Navbar styles */
+.navbar-custom {
+  background-color: #f8f9fa; /* Light background */
+}
+
+.navbar-logo {
+  width: 100px; 
+  height: 60px; 
+}
+
+.navbar-brand {
+  font-size: 24px; /* Brand font size */
+  color: #333; /* Darker brand color for warmth */
+  display: flex; /* Flex to align logo and text */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-link {
+  color: #333; /* Dark link color */
+  font-weight: bold; /* Make links bold */
+}
+
+.nav-link:hover {
+  color: #FFA500; /* Orange on hover for warmth */
+}
+
+/* General body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif; /* Warm, inviting font */
+  background-color: #fff8e1; /* Soft, light background color */
+}
+
+/* Background image for home page */
+.bg-image {
+  background-image: url('./images/cafe-background.jpg'); /* Path to your new image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Flex to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: white; /* White text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+}
+
+
+/* About Page Styles */
+.about-container {
+  padding: 40px; /* Space around content */
+  background-color: #ffffff; /* White background for content area */
+  border-radius: 10px; /* Slightly rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Headings */
+h1 {
+  color: #d2691e; /* Chocolate color for headings */
+  font-size: 2.5rem; /* Larger heading */
+  text-align: center; /* Center heading */
+}
+
+h3 {
+  color: #c56d3e; /* A warm orange for subheadings */
+  margin-top: 30px; /* Space above section headings */
+  font-size: 1.8rem; /* Slightly larger section heading */
+}
+
+/* Paragraphs */
+p {
+  color: #555; /* Darker gray for text */
+  line-height: 1.6; /* Improved line spacing for readability */
+  font-size: 1.1rem; /* Slightly larger font size */
+  margin: 10px 0; /* Space between paragraphs */
+}
+
+/* Image styles */
+.about-image {
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* More pronounced shadow for image */
+  width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #FFA500; /* Warm orange */
+  color: white; /* White text */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn-primary:hover {
+  background-color: #cc8400; /* Darker orange on hover */
+}
+
+/* Card styles for team members */
+.team-card {
+  border: none; /* Remove default card border */
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.2s; /* Smooth hover effect */
+  margin-bottom: 20px; /* Space between cards */
+}
+
+.team-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Card image */
+.card-image {
+  border-top-left-radius: 10px; /* Rounded corners for top */
+  border-top-right-radius: 10px; /* Rounded corners for top */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Ensure images cover the area */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px; /* Less padding on smaller screens */
+  }
+
+  h1 {
+    font-size: 2rem; /* Smaller heading size on mobile */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Smaller section heading */
+  }
+}
+
+
+
+
+/* Privacy Policy styles */
+.privacy-list {
+  list-style-type: disc; /* Use disc style for lists */
+  margin-left: 20px; /* Left margin for the list */
+}
+
+
+
+p {
+  line-height: 1.6; /* Improve readability */
+  color: #495057; /* Dark grey text color */
+}
+
+.card {
+  border-radius: 8px; /* Rounded corners for the card */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+/* Contact Us styles */
+.map-container {
+  margin-top: 20px; /* Space above the map */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Round the corners of the iframe */
+}
+
+
+.form-label {
+  font-weight: 500; /* Make form labels bold */
+}
+
+button {
+  margin-top: 10px; /* Space above the button */
+}
+
+
+/* Main content layout */
+.main-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  min-height: 100vh; /* Ensure it takes full height */
+}
+
+/* Content wrapper */
+.content {
+  flex: 1; /* This allows the content to grow */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #FFA500; /* Warm background */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  padding: 20px; /* Padding for footer */
+  width: 100%; /* Full width */
+}
+
+
+/*Register page Style*/
+
+
+.image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5; /* Light background for the image column */
+  padding: 20px; /* Add some padding */
+}
+
+.registration-image {
+  max-width: 100%; /* Make sure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .image-col {
+    display: none; /* Hide the image column on small screens */
+  }
+}
